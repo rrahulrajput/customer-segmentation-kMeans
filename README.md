@@ -33,4 +33,26 @@ Dataset: [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/onl
 - git clone https://github.com/<rrahulrajput>/customer-segmentation-kmeans.git
 cd customer-segmentation-kmeans
 
-- 
+## How to Run:
+#Clone this repository
+-git clone https://github.com/<rrahulrajput>/customer-segmentation-kmeans.git
+-cd customer-segmentation-kmeans
+
+
+#Create a virtual environment (optional but recommended)
+-python -m venv venv
+-source venv/bin/activate    # Mac/Linux
+-venv\Scripts\activate       # Windows
+
+
+#Install dependencies
+pip install -r requirements.txt
+
+
+#Run the script
+python src/customer_segmentation.py
+
+
+#View results
+-Segmentation plots will be saved in the images/ folder.
+-Clustered dataset will be saved as segmented_customers.csv in the output/ folder.
